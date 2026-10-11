@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #system{
+            height: 200vh;
+            display: flex;
+            justify-content: center;
+            background-image: url(https://wallpapers.com/images/hd/milky-way-galaxy-night-von2a342vbqa3op4.jpg);
+            align-items: center;
+        }
+        #sun{
+            height: 150px;
+            width: 150px;
+            background-color: yellow;
+            box-shadow: 0 0 30px rgb(244, 216, 9);
+            border-radius: 50%;
+        }
+        #orbit1{
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            border: 1px solid white;
+            position: absolute;
+            animation: spin 3s linear infinite normal;
+        }
+        #mer{
+            height: 50px;
+            width: 50px;
+            border: 1px solid black;
+            border-radius: 50%;
+            transform: translateX(20px);
+            background-color: rgba(34, 34, 123, 0.955);
+        }
+        #orbit2{
+            height: 500px;
+            width: 500px;
+            border-radius: 50%;
+            border: 1px solid white;
+            position: absolute;
+            animation: spin 9s linear infinite normal;
+        }
+        #venus{
+            height: 70px;
+            width: 70px;
+            border: 1px solid black;
+            border-radius: 50%;
+            transform: translateX(75px);
+            background-color: rgba(158, 10, 10, 0.966);
+        }
+        #orbit3{
+            height: 750px;
+            width: 750px;
+            border-radius: 50%;
+            border: 1px solid white;
+            position: absolute;
+            animation: spin 6s linear infinite normal;
+        }
+        #earth{
+            height: 90px;
+            width: 90px;
+            border: 1px solid black;
+            border-radius: 50%;
+            transform: translateX(150px);
+            background: linear-gradient(green,blue, green,  blue,green, blue);
+        }
+        #orbit4{
+            height: 1000px;
+            width: 1000px;
+            border-radius: 50%;
+            border: 1px solid white;
+            position: absolute;
+            animation: spin 3s linear infinite normal;
+        }
+        #mars{
+            height: 65px;
+            width: 65px;
+            border: 1px solid black;
+            border-radius: 50%;
+            transform: translateX(270px);
+            background-color: orangered;
+        }
+        #orbit5{
+            height: 1250px;
+            width: 1250px;
+            border-radius: 50%;
+            border: 1px solid white;
+            position: absolute;
+            animation: spin 8s linear infinite normal;
+        }
+        #jupiter{
+            height: 125px;
+            width: 125px;
+            border: 1px solid black;
+            border-radius: 50%;
+            transform: translateX(300px);
+            background-color: rgb(155, 125, 85);
+        }
+        #orbit6{
+            height: 1500px;
+            width: 1500px;
+            border-radius: 50%;
+            border: 1px solid white;
+            position: absolute;
+            animation: spin 5s linear infinite normal;
+        }
+        #saturn{
+            height: 120px;
+            width: 120px;
+            border: 1px solid black;
+            border-radius: 50%;
+            transform: translateX(410px);
+            background-color: rgb(229, 206, 178);
+        }
+        #orbit7{
+            height: 1750px;
+            width: 1750px;
+            border-radius: 50%;
+            border: 1px solid white;
+            position: absolute;
+            animation: spin 7s linear infinite normal;
+        }
+        #uranus{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            border-radius: 50%;
+            transform: translateX(510px);
+            background-color: darkcyan;
+        }
+        #orbit8{
+            height: 2000px;
+            width: 2000px;
+            border-radius: 50%;
+            border: 1px solid white;
+            position: absolute;
+            animation: spin 5s linear infinite normal;
+        }
+        #nep{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            border-radius: 50%;
+            transform: translateX(650px);
+            background-color: blue;
+        }
+        @keyframes spin {
+                from{
+                    transform: rotate(0deg)
+                }
+                to{
+                    transform: rotate(360deg)
+                }
+            }
+    </style>
+</head>
+<body>
+    <div id="system">
+        <div id="sun"></div>
+        <div id="orbit1">
+            <div id="mer"></div>
+        </div>
+        <div id="orbit2">
+            <div id="venus"></div>
+        </div>
+        <div id="orbit3">
+            <div id="earth"></div>
+        </div>
+        <div id="orbit4">
+            <div id="mars"></div>
+        </div>
+        <div id="orbit5">
+            <div id="jupiter"></div>
+        </div>
+        <div id="orbit6">
+            <div id="saturn"></div>
+        </div>
+        <div id="orbit7">
+            <div id="uranus"></div>
+        </div>
+        <div id="orbit8">
+            <div id="nep"></div>
+        </div>
+    </div>
+</body>
+</html>
